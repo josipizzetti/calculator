@@ -1,4 +1,4 @@
-$sreenColor: #3A4655;
+$sreenColor: #ec5900;
 
 .view-input {
   &__screen {
@@ -10,16 +10,17 @@ $sreenColor: #3A4655;
 
   &__operation {
     border-bottom: dotted 1px;
-    color: #727B86;
+    color: white;
     font-size: 21px;
     padding-bottom: 10px;
     text-align: right;
+    background: #ec5900
   }
 
   &__typed {
-    background-color: $sreenColor;
+    background-color: #fff;
     border: 0;
-    color: #fff;
+    color: #151515;
     font-size: 45px;
     margin-top: 20px;
     text-align: right;
@@ -27,6 +28,7 @@ $sreenColor: #3A4655;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    padding-right: 10px;
   }
 }
 
